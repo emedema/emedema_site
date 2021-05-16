@@ -14,20 +14,12 @@ export default class Header  extends Component {
                     <span>Facebook</span>
                     </a></li>
                 <li><a href="#0">
-                    <i className="im im-twitter" aria-hidden="true" />
-                    <span>Twitter</span>
+                    <i className="im im-github" aria-hidden="true" />
+                    <span>GitHub</span>
                     </a></li>
                 <li><a href="#0">
-                    <i className="im im-instagram" aria-hidden="true" />
-                    <span>Instagram</span>
-                    </a></li>
-                <li><a href="#0">
-                    <i className="im im-behance" aria-hidden="true" />
-                    <span>Behance</span>
-                    </a></li>
-                <li><a href="#0">
-                    <i className="im im-pinterest" aria-hidden="true" />
-                    <span>Pinterest</span>
+                    <i className="im im-linkedin" aria-hidden="true" />
+                    <span>LinkedIn</span>
                     </a></li>
                 </ul>
             </div>

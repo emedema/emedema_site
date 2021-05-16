@@ -43,7 +43,7 @@ export default class Header  extends Component {
                 </li>   
                 <li>
                 <div className="progress percent75"><span>95%</span></div>
-                <strong>R - Machine Learning and Data Analysis</strong>
+                <strong>R - ML and Data Analysis</strong>
                 </li>  
                 <li>
                 <div className="progress percent90"><span>90%</span></div>
