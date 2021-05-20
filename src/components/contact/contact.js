@@ -8,7 +8,7 @@ export default class Header  extends Component {
             <div className="col-full">
                 <h3>Contact</h3>
                 <h1>Say Hello.</h1>
-                <p className="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+                <p className="lead">If you have any questions or simply want to reach out feel free to contact me!</p>
             </div>
             </div>
             <div className="row contact__main">
@@ -51,19 +51,16 @@ export default class Header  extends Component {
             </div>
             <div className="col-four tab-full contact__infos">
                 <h4 className="h06">Phone</h4>
-                <p>Phone: (+63) 555 1212<br />
-                Mobile: (+63) 555 0100<br />
-                Fax: (+63) 555 0101
+                <p>Phone: (+1) 778 212 7440<br />
                 </p>
                 <h4 className="h06">Email</h4>
-                <p>someone@holawebsite.com<br />
-                info@holawebsite.com
+                <p>medema.emily@gmail.com<br />
                 </p>
                 <h4 className="h06">Address</h4>
                 <p>
-                1600 Amphitheatre Parkway<br />
-                Mountain View, CA<br />
-                94043 US
+                1308 Phoenix Dr<br />
+                Vernon BC<br />
+                V1B 3M4 CA
                 </p>
             </div>
             </div>
