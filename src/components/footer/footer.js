@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 export default class Header  extends Component {
     render(){
       return (
-            <footer>
+            <footer className="s-footer">
             <div className="row">
             <div className="col-full">
                 <div className="footer-logo">

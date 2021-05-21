@@ -1658,6 +1658,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #FFFFFF;
 }
 
+.header-nav li a:hover{
+    color: #89608E;
+}
+
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
     color: #7dccab;
@@ -1720,7 +1724,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /* ===================================================================
  * # home - (_site-layout.scss)
  *
- * ------------------------------------------------------------------- */
+ * ------------------------------------------------------------------- 
 
 .s-home {
     width: 100%;
@@ -1730,7 +1734,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
     display: table;
 }
-
+*/
 .s-home .shadow-overlay {
     position: absolute;
     top: 0;
@@ -1743,7 +1747,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
-
+/*
 .s-home .overlay {
     position: absolute;
     top: 0;
@@ -1757,7 +1761,30 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .no-js .s-home {
     background: #0D0A0B;
 }
+*/
 
+.s-home {
+    width: 100%;
+    height: 100%;
+    min-height: 786px;
+    background-color: #151515;
+    background-image: url("../images/contact-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center, center;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    display: table;
+}
+
+.s-home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .75;
+    background-color: #070606;
+}
 
 /* ------------------------------------------------------------------- 
  * ## home content - (_site-layout.scss) 
@@ -1768,7 +1795,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     vertical-align: bottom;
-    padding-bottom: 19.2rem;
+    padding-bottom: 28.2rem;
     position: relative;
 }
 
@@ -1836,7 +1863,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__scroll {
     position: absolute;
     left: .6rem;
-    bottom: -13.2rem;
+    bottom: -25.2rem;
 }
 
 .home-content__scroll a {
@@ -3058,7 +3085,7 @@ html.no-csstransitions .home-content__main {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .75;
+    opacity: .90;
     background-color: #070606;
 }
 
@@ -3319,6 +3346,14 @@ footer a:hover, footer a:focus {
     color: #FFFFFF;
 }
 
+.s-footer{
+    width: 100%;
+    height: 72px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 500;
+}
+
 .footer-logo {
     display: inline-block;
 }
@@ -3383,21 +3418,6 @@ footer a:hover, footer a:focus {
 .footer-bottom {
     margin-top: 7.2rem;
     text-align: center;
-}
-
-.footer-bottom .copyright span {
-    display: inline-block;
-}
-
-.footer-bottom .copyright span::after {
-    content: "|";
-    display: inline-block;
-    padding: 0 1rem 0 1.2rem;
-    color: rgba(255, 255, 255, 0.1);
-}
-
-.footer-bottom .copyright span:last-child::after {
-    display: none;
 }
 
 
