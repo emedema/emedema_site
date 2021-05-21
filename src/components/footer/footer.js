@@ -9,15 +9,15 @@ export default class Header  extends Component {
                 <a className="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage" /></a>
                 </div>
                 <ul className="footer-social">
-                <li><a href="#0">
+                <li><a href="https://www.facebook.com/medema.emily">
                     <i className="im im-facebook" aria-hidden="true" />
                     <span>Facebook</span>
                     </a></li>
-                <li><a href="#0">
+                <li><a href="https://github.com/emedema">
                     <i className="im im-github" aria-hidden="true" />
                     <span>GitHub</span>
                     </a></li>
-                <li><a href="#0">
+                <li><a href="https://www.linkedin.com/in/emily-medema">
                     <i className="im im-linkedin" aria-hidden="true" />
                     <span>LinkedIn</span>
                     </a></li>

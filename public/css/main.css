@@ -2430,7 +2430,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__thumb a::after {
-    content: "...";
+    
     font-family: georgia, serif;
     font-size: 3rem;
     display: block;
@@ -2460,6 +2460,7 @@ html.no-csstransitions .home-content__main {
     bottom: 3rem;
     padding: 0 3rem;
     z-index: 2;
+    opacity: 0;
 }
 
 .item-folio__title {
@@ -2478,9 +2479,6 @@ html.no-csstransitions .home-content__main {
     margin-bottom: 0;
 }
 
-.item-folio__caption {
-    display: none;
-}
 
 .item-folio__project-link {
     display: block;
@@ -2550,6 +2548,10 @@ html.no-csstransitions .home-content__main {
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+}
+
+.item-folio:hover .item-folio__text{
+    opacity: 0.6;
 }
 
 

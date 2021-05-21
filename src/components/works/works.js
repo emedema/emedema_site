@@ -19,7 +19,7 @@ export default class Header  extends Component {
                 <div className="item-folio">
                     <div className="item-folio__thumb">
                     <a href="https://github.com/emedema/OKBoomer" className="thumb-link" title="OkBoomer Icon" data-size="1050x700">
-                        <img src="images/portfolio/okboomer_icon.jpg" srcSet="images/portfolio/okboomer_icon.jpg 1x, images/portfolio/okboomer_icon@2x.jpg 2x" alt="" />
+                        <img src="images/portfolio/okboomer_icon.jpg" srcSet="images/portfolio/okboomer_icon.jpg 1x" alt="" />
                         <span className="shadow-overlay" />
                     </a>
                     </div>
@@ -41,7 +41,7 @@ export default class Header  extends Component {
                 <div className="item-folio">
                     <div className="item-folio__thumb">
                     <a href="https://github.com/emedema/Laur.ai" className="thumb-link" title="Lighthouse" data-size="1050x700">
-                        <img src="images/portfolio/laurai.jpg" srcSet="images/portfolio/laurai.jpg 1x, images/portfolio/laurai@2x.jpg 2x" alt="" />
+                        <img src="images/portfolio/laurai.jpg" srcSet="images/portfolio/laurai.jpg 1x" alt="" />
                         <span className="shadow-overlay" />
                     </a>
                     </div>
@@ -63,7 +63,7 @@ export default class Header  extends Component {
                 <div className="item-folio">
                     <div className="item-folio__thumb">
                     <a href="https://github.com/emedema/COSC304-Pokemon.net" className="thumb-link" data-size="1050x700">
-                        <img src="images/portfolio/pokenet.jpg" srcSet="images/portfolio/pokenet.jpg 1x, images/portfolio/pokenet@2x.jpg 2x" alt="" />
+                        <img src="images/portfolio/pokenet.jpg" srcSet="images/portfolio/pokenet.jpg 1x"/>
                         <span className="shadow-overlay" />
                     </a>
                     </div>
@@ -84,121 +84,110 @@ export default class Header  extends Component {
                 <div className="masonry__brick">
                 <div className="item-folio">
                     <div className="item-folio__thumb">
-                    <a href="images/portfolio/gallery/g-woodcraft.jpg" className="thumb-link" data-size="1050x700">
-                        <img src="images/portfolio/woodcraft.jpg" srcSet="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="" />
+                    <a href="https://github.com/emedema/RecommenderSystem" className="thumb-link" data-size="1050x700">
+                        <img src="images/portfolio/collabfilter.jpg" srcSet="images/portfolio/collabfilter.jpg 1x" alt="" />
                         <span className="shadow-overlay" />
                     </a>
                     </div>
                     <div className="item-folio__text">
                     <h3 className="item-folio__title">
-                        Woodcraft
+                        Recommender System
                     </h3>
                     <p className="item-folio__cat">
-                        Branding
+                        Algorithm Development
                     </p>
+                    <p style = {{color: '#FFFFFF'}}>An algorithm to recommend items based on the likes and dislikes of a user and their similarities to other users.</p>
                     </div>
-                    <a href="https://www.behance.net/" className="item-folio__project-link" title="Project link">
+                    <a href="https://github.com/emedema/RecommenderSystem" className="item-folio__project-link" title="Project link">
                     <i className="im im-link" />
                     </a>
-                    <span className="item-folio__caption">
-                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </span>
                 </div> {/* end item-folio */}
                 </div> {/* end masonry__brick */}
                 <div className="masonry__brick">
                 <div className="item-folio">
                     <div className="item-folio__thumb">
-                    <a href="images/portfolio/gallery/g-skaterboy.jpg" className="thumb-link" data-size="1050x700">
-                        <img src="images/portfolio/skaterboy.jpg" srcSet="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="" />
+                    <a href="https://github.com/emedema/DATA311-PokemonProject" className="thumb-link" data-size="1050x700">
+                        <img src="images/portfolio/pokedata.jpg" srcSet="images/portfolio/pokedata.jpg 1x" alt="" />
                         <span className="shadow-overlay" />
                     </a>
                     </div>
                     <div className="item-folio__text">
                     <h3 className="item-folio__title">
-                        Skaterboy
+                        Pokemon: The Myths and the Legends
+                    </h3>
+                    <p className="item-folio__cat">
+                        Machine Learning
+                    </p>
+                    <p style = {{color: '#FFFFFF'}}>An analysis of pokemon stats using various machine learning models to see if we can find any trends.</p>
+                    </div>
+                    <a href="https://github.com/emedema/DATA311-PokemonProject" className="item-folio__project-link" title="Project link">
+                    <i className="im im-link" />
+                    </a>
+                </div> {/* end item-folio */}
+                </div> {/* end masonry__brick */}
+                <div className="masonry__brick">
+                <div className="item-folio">
+                    <div className="item-folio__thumb">
+                    <a href="images/report.pdf" className="thumb-link" data-size="1050x700">
+                        <img src="images/portfolio/data448.jpg" srcSet="images/portfolio/data448.jpg 1x" alt="" />
+                        <span className="shadow-overlay" />
+                    </a>
+                    </div>
+                    <div className="item-folio__text">
+                    <h3 className="item-folio__title">
+                        Fitting Truncated Mixture Mixture Models on Complex Specta
+                    </h3>
+                    <p className="item-folio__cat">
+                        Machine Learning/Statistics Modelling
+                    </p>
+                    </div>
+                    <a href="images/report.pdf" className="item-folio__project-link" title="Project link">
+                    <i className="im im-link" />
+                    </a>
+                </div> {/* end item-folio */}
+                </div> {/* end masonry__brick */}
+                <div className="masonry__brick">
+                <div className="item-folio">
+                    <div className="item-folio__thumb">
+                    <a href="https://github.com/emedema/fallr" className="thumb-link" data-size="1050x700">
+                        <img src="images/portfolio/fallr.jpg" srcSet="images/portfolio/fallr.jpg 1x" alt="" />
+                        <span className="shadow-overlay" />
+                    </a>
+                    </div>
+                    <div className="item-folio__text">
+                    <h3 className="item-folio__title">
+                        fallr
                     </h3>
                     <p className="item-folio__cat">
                         Web Development
                     </p>
+                    <p style = {{color: '#FFFFFF'}}>A blogging website for falling into deep holes.</p>
                     </div>
-                    <a href="https://www.behance.net/" className="item-folio__project-link" title="Project link">
+                    <a href="https://github.com/emedema/fallr" className="item-folio__project-link" title="Project link">
                     <i className="im im-link" />
                     </a>
-                    <span className="item-folio__caption">
-                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </span>
                 </div> {/* end item-folio */}
                 </div> {/* end masonry__brick */}
                 <div className="masonry__brick">
                 <div className="item-folio">
                     <div className="item-folio__thumb">
-                    <a href="images/portfolio/gallery/g-liberty.jpg" className="thumb-link" data-size="1050x700">
-                        <img src="images/portfolio/liberty.jpg" srcSet="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="" />
+                    <a href="images/frank_dev.pdf" className="thumb-link" data-size="1050x700">
+                        <img src="images/portfolio/frank.jpg" srcSet="images/portfolio/frank.jpg 1x" alt="" />
                         <span className="shadow-overlay" />
                     </a>
                     </div>
                     <div className="item-folio__text">
                     <h3 className="item-folio__title">
-                        Liberty
+                    “Lost in time, and lost in space... and meaning”
                     </h3>
                     <p className="item-folio__cat">
-                        Branding
+                        Deviancy as a Structure for Meaning in Frankenstein and Adaptations
                     </p>
+                    <p style = {{color: '#FFFFFF'}}>English Literature Analysis.</p>
                     </div>
-                    <a href="https://www.behance.net/" className="item-folio__project-link" title="Project link">
+                    <a href="images/frank_dev.pdf" className="item-folio__project-link" title="Project link">
                     <i className="im im-link" />
                     </a>
-                    <span className="item-folio__caption">
-                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </span>
-                </div> {/* end item-folio */}
-                </div> {/* end masonry__brick */}
-                <div className="masonry__brick">
-                <div className="item-folio">
-                    <div className="item-folio__thumb">
-                    <a href="images/portfolio/gallery/g-minimalismo.jpg" className="thumb-link" data-size="1050x700">
-                        <img src="images/portfolio/minimalismo.jpg" srcSet="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="" />
-                        <span className="shadow-overlay" />
-                    </a>
-                    </div>
-                    <div className="item-folio__text">
-                    <h3 className="item-folio__title">
-                        Minimalismo
-                    </h3>
-                    <p className="item-folio__cat">
-                        Web Design
-                    </p>
-                    </div>
-                    <a href="https://www.behance.net/" className="item-folio__project-link" title="Project link">
-                    <i className="im im-link" />
-                    </a>
-                    <span className="item-folio__caption">
-                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </span>
-                </div> {/* end item-folio */}
-                </div> {/* end masonry__brick */}
-                <div className="masonry__brick">
-                <div className="item-folio">
-                    <div className="item-folio__thumb">
-                    <a href="images/portfolio/gallery/g-shutterbug.jpg" className="thumb-link" data-size="1050x700">
-                        <img src="images/portfolio/shutterbug.jpg" srcSet="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="" />
-                        <span className="shadow-overlay" />
-                    </a>
-                    </div>
-                    <div className="item-folio__text">
-                    <h3 className="item-folio__title">
-                        Lady Shutterbug
-                    </h3>
-                    <p className="item-folio__cat">
-                        Branding
-                    </p>
-                    </div>
-                    <a href="https://www.behance.net/" className="item-folio__project-link" title="Project link">
-                    <i className="im im-link" />
-                    </a>
-                    <span className="item-folio__caption">
-                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </span>
                 </div> {/* end item-folio */}
                 </div> {/* end masonry__brick */}
             </div>

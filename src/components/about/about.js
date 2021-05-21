@@ -37,19 +37,19 @@ export default class Header  extends Component {
                 <strong>CSS3</strong>
                 </li>
                 <li>
-                <div className="progress percent70"><span>95%</span></div>
+                <div className="progress percent95"><span>95%</span></div>
                 <strong>Python</strong>
                 </li>
                 <li>
-                <div className="progress percent95"><span>70%</span></div>
+                <div className="progress percent70"><span>70%</span></div>
                 <strong>PHP</strong>
                 </li>
                 <li>
-                <div className="progress percent75"><span>90%</span></div>
+                <div className="progress percent90"><span>90%</span></div>
                 <strong>Java</strong>
                 </li>   
                 <li>
-                <div className="progress percent75"><span>95%</span></div>
+                <div className="progress percent95"><span>95%</span></div>
                 <strong>R - ML and Data Analysis</strong>
                 </li>  
                 <li>
@@ -61,10 +61,10 @@ export default class Header  extends Component {
         </div> {/* end about-content */}
         <div className="row about-content about-content--buttons">
             <div className="col-six tab-full left">
-            <a href="#0" className="btn btn--primary full-width">Download My CV</a>
+            <a href="images/resume.pdf" className="btn btn--primary full-width">Download My CV</a>
             </div>
             <div className="col-six tab-full right">
-            <a href="#0" className="btn full-width">Hire Me Now</a>
+            <a href="#contact" className="btn full-width">Hire Me Now</a>
             </div>
         </div> {/* end about-content buttons */}
         <div className="row about-content about-content--timeline">
