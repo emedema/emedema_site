@@ -52,7 +52,7 @@ export default class Header  extends Component {
                     <p className="item-folio__cat">
                         Chat Bot
                     </p>
-                    <p style = {{color: '#FFFFFF'}}>Laur.ai is a chatbot designed simulate reddit conversations.</p>
+                    <p style = {{color: '#FFFFFF'}}>Laur.ai is a chatbot designed to simulate reddit conversations.</p>
                     </div>
                     <a href="https://github.com/emedema/Laur.ai" className="item-folio__project-link" title="Project link">
                     <i className="im im-link" />
