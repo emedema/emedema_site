@@ -16,16 +16,16 @@ export default class Header  extends Component {
                 <form name="contactForm" id="contactForm" method="post" action>
                 <fieldset>
                     <div className="form-field">
-                    <input name="contactName" type="text" id="contactName" placeholder="Name" defaultValue minLength={2} required aria-required="true" className="full-width" />
+                    <input name="contactName" type="text" id="contactName" placeholder="Name" defaultValue={""} minLength={2} required aria-required="true" className="full-width" />
                     </div>
                     <div className="form-field">
-                    <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" defaultValue required aria-required="true" className="full-width" />
+                    <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" defaultValue={""} required aria-required="true" className="full-width" />
                     </div>
                     <div className="form-field">
-                    <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" defaultValue className="full-width" />
+                    <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" defaultValue={""} className="full-width" />
                     </div>
                     <div className="form-field">
-                    <textarea name="contactMessage" id="contactMessage" placeholder="message" rows={10} cols={50} required aria-required="true" className="full-width" defaultValue={""} />
+                    <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows={10} cols={50} required aria-required="true" className="full-width" defaultValue={""} />
                     </div>
                     <div className="form-field">
                     <button className="full-width btn--primary">Submit</button>
