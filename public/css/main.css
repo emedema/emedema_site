@@ -517,7 +517,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #862121;
+    background: #89608E;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -2382,7 +2382,7 @@ html.no-csstransitions .home-content__main {
 .s-works {
     padding-top: 15rem;
     padding-bottom: 15.6rem;
-    background-color: #f1f1f1;
+    background-color: #FBFBFB;
     position: relative;
 }
 
