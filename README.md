@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+#Portfolio Site
+This is a portfolio site created by me for me. This is hosted with render and done in react.js.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
