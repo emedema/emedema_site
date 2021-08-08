@@ -2,6 +2,8 @@ import { useForm } from 'react-hook-form';
 import { send } from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
+import{ init } from 'emailjs-com';
+init(process.env.REACT_APP_USER_ID);
 
 const ContactForm = () => {
   const { register, errors, handleSubmit, reset } = useForm();
