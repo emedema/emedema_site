@@ -15,7 +15,7 @@ export default class Header  extends Component {
             </div>
             <div className="row contact__main">
             <div className="col-eight tab-full contact__form">
-                {/* <form name="contactForm" id="contactForm" method="post" action>
+                <form name="contactForm" id="contactForm" action="https://formsubmit.co/3eb44c4389a982a7f6f2ea9878dcaae3" method="POST">
                 <fieldset>
                     <div className="form-field">
                     <input name="contactName" type="text" id="contactName" placeholder="Name" defaultValue={""} minLength={2} required aria-required="true" className="full-width" />
@@ -42,8 +42,8 @@ export default class Header  extends Component {
                     </div>
                 </fieldset>
                 </form>
-                contact-warning */}
-                <ContactForm />
+                {/*contact-warning */}
+                {/*<ContactForm />*/}
             </div>
             <div className="col-four tab-full contact__infos">
                 <h4 className="h06">Phone</h4>
