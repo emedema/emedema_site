@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import { useForm } from 'react-hook-form';
+import ContactForm from './react-hook-form';
 export default class Header  extends Component {
     render(){
       return (
@@ -13,7 +15,7 @@ export default class Header  extends Component {
             </div>
             <div className="row contact__main">
             <div className="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="post" action>
+                {/* <form name="contactForm" id="contactForm" method="post" action>
                 <fieldset>
                     <div className="form-field">
                     <input name="contactName" type="text" id="contactName" placeholder="Name" defaultValue={""} minLength={2} required aria-required="true" className="full-width" />
@@ -40,14 +42,8 @@ export default class Header  extends Component {
                     </div>
                 </fieldset>
                 </form>
-                {/* contact-warning */}
-                <div className="message-warning">
-                Something went wrong. Please try again.
-                </div> 
-                {/* contact-success */}
-                <div className="message-success">
-                Your message was sent, thank you!<br />
-                </div>
+                contact-warning */}
+                <ContactForm />
             </div>
             <div className="col-four tab-full contact__infos">
                 <h4 className="h06">Phone</h4>
