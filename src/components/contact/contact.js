@@ -17,17 +17,8 @@ export default class Header  extends Component {
                 <ContactForm2 />
             </div>
             <div className="col-four tab-full contact__infos">
-                <h4 className="h06">Phone</h4>
-                <p>Phone: (+1) 778 212 7440<br />
-                </p>
                 <h4 className="h06">Email</h4>
-                <p>medema.emily@gmail.com<br />
-                </p>
-                <h4 className="h06">Address</h4>
-                <p>
-                1308 Phoenix Dr<br />
-                Vernon BC<br />
-                V1B 3M4 CA
+                <p>medema[dot]emily@gmail[dot]com<br />
                 </p>
             </div>
             </div>
