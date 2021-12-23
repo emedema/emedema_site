@@ -1,0 +1,53 @@
+﻿Id,Meal,Ingredients,Cuisine,Difficulty
+1,Baked Tortellini,"Sausage, Tortellini, Pepper, Zuchinni, Onion, Mozarella, Seasonings",Italian,2
+2,Butter Chicken,"Butter Chicken Sauce, Rice, Chicken, Naan, Veggies",Indian,1
+3,Chilli,"Beef, Pepper, Onion, Corn, Beans, Tomato Sauce, Rice",Comfort,2
+4,Chicken Burgers,"Buns, Lettuce, Chicken, Panko, Side",American,2
+5,Homemade Burgers,"Bun, Beef, Lettuce, Onion, Side",American,2
+6,Bought Burgers,"Bun, Hamburger Patties, Onion, Lettuce, Side",American,1
+7,Nachos,"Beef, Pepper, Onion, Cheese, Nacho chips, Sour cream, Salsa",Mexican,1
+8,Tacos,"Beef, Tortilla, Lettuce, Pepper, Cheese, Sour Cream, Salsa",Mexican,1
+9,Shawarma,"Naan, Chicken, Assorted Veggies, Side",Middle Eastern,3
+10,Meatloaf,"Beef, Onion, Breadcrumbs, Creamed Corn, Potatoes, Veggies",Comfort,2
+11,Chicken Bacon Pasta,"Chicken, Bacon, Milk, Butter, Broccoli or Peas",Italian,2
+12,Taco Pasta,"Beef, Pepper, Onion, Corn, Tomato Sauce, Cheese, Pasta",Fusion,2
+13,Mince,"Beef, Carrots, Celery, Peas, Beef Stock, Potatoes",Comfort,2
+14,Beef Stew,"Stew Beef, Carrots, Potatoes, Turnip or Parsnips, Beef Stock, Onion",Comfort,2
+15,Hungarian Goulash,"Stew Beef, Tomato Sauce, Paprika, Onions, Egg Noodles, Sour Cream",European,3
+16,Beef Stroganoff,"Beef, Sour Cream, Egg Noodles, Stock",European,3
+17,Broccoli Cheddar Soup,"Broccoli, Cheddar, Potato, Stock, Greek Yogurt",Comfort,2
+18,Curried Squash Soup,"Butternut Squash, Curry, Stock, Cream",Comfort,2
+19,Potato Leek Soup,"Potatoe, Leeks, Cheddar, Stock",Comfort,2
+20,Dutch Meatball Soup,"Egg Noodels, Beef, Carrot, Celery, Stock",European,2
+21,Spaghetti,"Beef, Tomato Sauce, Pepper, Onion",Comfort,2
+22,Homemade Pizza,"Pizza Dough, Tomato Paste or Pizza Sauce, Cheese, Pizza Meat, Pepper, Artichoke, Pineapple, Red Onion",Italian,3
+23,Thai Curry,"Thai Curry Can, Rice, Chicken, Veggies",Asian,2
+24,Store Chicken Cordon Bleu,"Chicken Cordon Bleu, Rice, Veggies",Comfort,1
+25,Chicken Cordon Bleu,"Chicken, Ham, Swiss, Rice, Veggies",Comfort,2
+26,Lasagne,"Beef, Sausage, Tomato Sauce, Pasta, Cheese, Spinach",Italian,3
+27,Steak Dinner,"Steak, Potatoes, Veggie",Comfort,2
+28,Pork Roast,"Pork Roast, Sides",Comfort,2
+29,Beef Roast,"Beef Roast, Sides",Comfort,2
+30,Ham + Scallopped Potatoes,"Ham, Potatoes, Cream Soup, Cheese, Veggie",Comfort,3
+31,Braised Beef Short Ribs,"Beef Short Ribs, Beef Stock, Beer, Sides",Comfort,4
+32,Schnitzel,"Schnitzel, Veggies",European,1
+33,Greek Dinner,"Greek Chicken, Greek Potatoes, Greek Salad (or Pasta Salad), Pita, Tzatziki",European,2
+34,Ribs,"Ribs, Potatoes, Veggies",Comfort,2
+35,Perogies,"Perogies, Sausage, Sour Cream",European,1
+37,Roasted Chicken Dinner,"Roasted Chicken, Potatoe, Veggie",Comfort,3
+38,Chicken,"Chicken, Carb (Rice, Pasta, Potatoes), Veggies",Comfort,1
+39,Pachoes,"Crisscross Fries, Cheese, Green Onions, Emerald Isle Sauce",American,2
+40,Sausage Dinner,"Sausage, Veggies, Carb",Comfort,1
+41,Chicken Parmesean,"Chicken, Panko, Tomato Sauce, Cheese, Pasta, Veggies",Italian,3
+42,Fajitas,"Chicken, Tortilla, Pepper, Onion, Cheese, Sour Cream, Salsa",Mexican,2
+43,Reubens,"Rye Bread, Swiss, Sauerkraut, Montreal Smoked Meat",Comfort,1
+44,Macaroni & Cheese,"Pasta, Milk, Butter, Cheese",Comfort,1
+45,Swiss Steak,"Steak, Tomatoes, Onion, Pepper",European,2
+47,Chicken Curry,"Chicken, Curry, Cream Soup, Rice, Veggie",Indian,2
+48,Lemon Dijon Chicken,"Chicken, Lemon, Caper, Dijion, Carb, Veggie",Comfort,2
+49,Pork Chops,"Pork Chop, Carb, Veggie",Comfort,2
+50,Pork Tenderloin,"Pork Tenderloin, Carb, Veggie",Comfort,2
+51,Philly Cheese Steaks,"Beef, Peppers, Onion, Bun, Cheese",American,2
+52,Beef Dip,"Beef, Bun, Pepper, Au Jus",American,2
+53,Rottisserie Chicken,"Rottisserie Chicken, Salad",Comfort,1
+54,Breakfast for Dinner,"Eggs, Bread, Bacon, Sausage",Comfort,1
