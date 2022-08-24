@@ -7,13 +7,13 @@ export default class Header  extends Component {
             <div className="col-full text-center">
             <h3>About</h3>
             <h1>More About Me</h1>
-            <p className="lead">I am a current student at the University of British Columbia Okanagan Campus with a major in Computer Science and minor in Data Science.</p>
+            <p className="lead">I am a current MSc in Computer Science graduate student at Queen's University within the <a href = "https://sites.google.com/site/tinghushomepage/research">Machine Intelligence & Biocomputing (MIB)</a> and <a href = "https://www.cs.queensu.ca/research/groups/profile.php?id=33" >Ethics and Technology</a> Labs.</p> I am specifically researching bio-medical machine learning with a focus in ethics.
             </div>
         </div>
         <div className="row about-content">
             <div className="col-six tab-full left">
             <h3>Hi!</h3>
-            <p>I'm Emily, an Okanagan based computer science student with experience in software and web development, research, teaching, and help desk/customer support. 
+            <p>I'm Emily, an Kingston-based computer science student with experience in software and web development, research, teaching, and help desk/customer support. 
                 I primarily work in Python, JavaScript (as well as frameworks such as React and Node), Java, and R. I have a lot of experience with machine learning and data analytic models/visualisations.</p>
             <p>
                 When I am not working or studying, I can be found working on one of my numerous writing works in progress, camping, reading, or futilely trying to make my way through my ever-growing Netflix queue. 
@@ -76,16 +76,19 @@ export default class Header  extends Component {
                 <div className="timeline__block">
                 <div className="timeline__bullet" />
                 <div className="timeline__header">
-                    <p className="timeline__timeframe">September 2020 - Present</p>
-                    <h3>Teck Resources</h3>
-                    <h5>Digital Systems Student</h5>
+                <p className="timeline__timeframe">September 2019 - April 2022</p>
+                    <h3>University of British Columbia</h3>
+                    <h5>Research & Teaching Assistant</h5>
                 </div>
                 <div className="timeline__desc">
-                    <p>Entailed software development, QA - both manual and automated testing with Selenium, user interface development for web application, system support, 
-                        database update script development and implementation, change management, enhancement and defect specification, refinement, design and development, 
-                        planning with Azure DevOps, build automation and security improvements with SonarQube.</p>
+                    <p>
+                        My research entailed developing a mobile application to integrate the Internet of Things and better data visualization, visioning and analytics algorithms into Patient Health Platforms to improve patient experience.
+                        Teaching included providing additional instruction and support to students in the Computer Science faculty. As well as marking and giving feedback to students on assignments and tests, which involves knowledge on the language, syntax,
+                        and occasionally proofs.
+                    </p>
                 </div>
                 </div> {/* end timeline__block */}
+                    
                 <div className="timeline__block">
                 <div className="timeline__bullet" />
                 <div className="timeline__header">
@@ -105,16 +108,14 @@ export default class Header  extends Component {
                 <div className="timeline__block">
                 <div className="timeline__bullet" />
                 <div className="timeline__header">
-                    <p className="timeline__timeframe">September 2019 - April 2020</p>
-                    <h3>University of British Columbia</h3>
-                    <h5>Research & Teaching Assistant</h5>
+                <p className="timeline__timeframe">September 2020 - September 2021</p>
+                    <h3>Teck Resources</h3>
+                    <h5>Digital Systems Student</h5>
                 </div>
                 <div className="timeline__desc">
-                    <p>
-                        My research entailed developing a mobile application to integrate the Internet of Things and better data visualization, visioning and analytics algorithms into Patient Health Platforms to improve patient experience.
-                        Teaching included providing additional instruction and support to students in the Computer Science faculty. As well as marking and giving feedback to students on assignments and tests, which involves knowledge on the language, syntax,
-                        and occasionally proofs.
-                    </p>
+                    <p>Entailed software development, QA - both manual and automated testing with Selenium, user interface development for web application, system support, 
+                        database update script development and implementation, change management, enhancement and defect specification, refinement, design and development, 
+                        planning with Azure DevOps, build automation and security improvements with SonarQube.</p>
                 </div>
                 </div> {/* end timeline__block */}
                 <div className="timeline__block">
