@@ -18,6 +18,71 @@ export default class Header  extends Component {
                 <div className="masonry__brick">
                 <div className="item-folio">
                     <div className="item-folio__thumb">
+                    <a href="images/2022_Emily_Medema_Honours.pdf" className="thumb-link" data-size="1050x700">
+                        <img src="images/portfolio/honours.jpg" srcSet="images/portfolio/honours.jpg 1x" alt="" />
+                        <span className="shadow-overlay" />
+                    </a>
+                    </div>
+                    <div className="item-folio__text">
+                    <h3 className="item-folio__title">
+                        Bovine Event Detection: Analysis of Bovine Data and Cycles
+                    </h3>
+                    <p className="item-folio__cat">
+                        Database/Data Analysis
+                    </p>
+                    </div>
+                    <a href="images/2022_Emily_Medema_Honours.pdf" className="item-folio__project-link" title="Project link">
+                    <i className="im im-link" />
+                    </a>
+                </div> {/* end item-folio */}
+                </div> {/* end masonry__brick */}
+                <div className="masonry__brick">
+                <div className="item-folio">
+                    <div className="item-folio__thumb">
+                    <a href="https://github.com/rogov-dvp/medical-imaging-matching" className="thumb-link" title="OkBoomer Icon" data-size="1050x700">
+                        <img src="images/portfolio/bccancer.jpg" srcSet="images/portfolio/bccancer.jpg 1x" alt="" />
+                        <span className="shadow-overlay" />
+                    </a>
+                    </div>
+                    <div className="item-folio__text">
+                    <h3 className="item-folio__title">
+                        Medical Image Matching
+                    </h3>
+                    <p className="item-folio__cat">
+                        Image Processing
+                    </p>
+                    <p style = {{color: '#FFFFFF'}}>A model developed for BC Cancer that will return a similarity index for two mammogram images.</p>
+                    </div>
+                    <a href="https://github.com/rogov-dvp/medical-imaging-matching" className="item-folio__project-link" title="Project link">
+                    <i className="im im-link" />
+                    </a>
+                </div> {/* end item-folio */}
+                </div> {/* end masonry__brick */}
+                <div className="masonry__brick">
+                <div className="item-folio">
+                    <div className="item-folio__thumb">
+                    <a href="https://github.com/emedema/ao3-network-analysis" className="thumb-link" title="OkBoomer Icon" data-size="1050x700">
+                        <img src="images/portfolio/ao3_network.jpg" srcSet="images/portfolio/ao3_network.jpg 1x" alt="" />
+                        <span className="shadow-overlay" />
+                    </a>
+                    </div>
+                    <div className="item-folio__text">
+                    <h3 className="item-folio__title">
+                        AO3 Network Analysis
+                    </h3>
+                    <p className="item-folio__cat">
+                        Data and Network Analysis
+                    </p>
+                    <p style = {{color: '#FFFFFF'}}>A social network analysis of Archive of Our Own.</p>
+                    </div>
+                    <a href="https://github.com/emedema/ao3-network-analysis" className="item-folio__project-link" title="Project link">
+                    <i className="im im-link" />
+                    </a>
+                </div> {/* end item-folio */}
+                </div> {/* end masonry__brick */}
+                <div className="masonry__brick">
+                <div className="item-folio">
+                    <div className="item-folio__thumb">
                     <a href="https://github.com/emedema/OKBoomer" className="thumb-link" title="OkBoomer Icon" data-size="1050x700">
                         <img src="images/portfolio/okboomer_icon.jpg" srcSet="images/portfolio/okboomer_icon.jpg 1x" alt="" />
                         <span className="shadow-overlay" />
@@ -135,7 +200,7 @@ export default class Header  extends Component {
                     </div>
                     <div className="item-folio__text">
                     <h3 className="item-folio__title">
-                        Fitting Truncated Mixture Mixture Models on Complex Specta
+                        Fitting Truncated Mixture Mixture Models on Complex Spectra
                     </h3>
                     <p className="item-folio__cat">
                         Machine Learning/Statistics Modelling
