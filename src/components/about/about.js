@@ -7,7 +7,7 @@ export default class Header  extends Component {
             <div className="col-full text-center">
             <h3>About</h3>
             <h1>More About Me</h1>
-            <p className="lead">I am a current MSc in Computer Science graduate student at Queen's University within the <a href = "https://sites.google.com/site/tinghushomepage/research">Machine Intelligence & Biocomputing (MIB)</a> and <a href = "https://www.cs.queensu.ca/research/groups/profile.php?id=33" >Ethics and Technology</a> Labs.</p> I am specifically researching bio-medical machine learning with a focus in ethics.
+            <p className="lead">I am a current MSc in Computer Science graduate student at Queen's University within the <a href = "https://sites.google.com/site/tinghushomepage/research">Machine Intelligence & Biocomputing (MIB)</a> and <a href = "https://etlab.cs.queensu.ca/" >Ethics & Technology</a> Labs.</p> I am specifically researching bio-medical machine learning with a focus in ethics.
             </div>
         </div>
         <div className="row about-content">
