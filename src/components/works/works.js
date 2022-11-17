@@ -18,7 +18,7 @@ export default class Header  extends Component {
                 <div className="masonry__brick">
                 <div className="item-folio">
                     <div className="item-folio__thumb">
-                    <a href="images/2022_Emily_Medema_Honours.pdf" className="thumb-link" data-size="1050x700">
+                    <a href="http://hdl.handle.net/2429/81606" className="thumb-link" data-size="1050x700">
                         <img src="images/portfolio/honours.jpg" srcSet="images/portfolio/honours.jpg 1x" alt="" />
                         <span className="shadow-overlay" />
                     </a>
@@ -31,7 +31,7 @@ export default class Header  extends Component {
                         Database/Data Analysis
                     </p>
                     </div>
-                    <a href="images/2022_Emily_Medema_Honours.pdf" className="item-folio__project-link" title="Project link">
+                    <a href="http://hdl.handle.net/2429/81606" className="item-folio__project-link" title="Project link">
                     <i className="im im-link" />
                     </a>
                 </div> {/* end item-folio */}
