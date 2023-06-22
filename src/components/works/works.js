@@ -19,6 +19,69 @@ export default class Header  extends Component {
                 <div className="item-folio">
                     <div className="item-folio__thumb">
                     <a href="http://hdl.handle.net/2429/81606" className="thumb-link" data-size="1050x700">
+                        <img src="images/portfolio/comp_icon.jpg" srcSet="images/portfolio/comp_icon.jpg 1x" alt="" />
+                        <span className="shadow-overlay" />
+                    </a>
+                    </div>
+                    <div className="item-folio__text">
+                    <h3 className="item-folio__title">
+                        Comprehensive Framework for the Development of Ethical Machine Learning in Medicine
+                    </h3>
+                    <p className="item-folio__cat">
+                        Ethics/Machine Learning
+                    </p>
+                    </div>
+                    <a href="https://doi.org/10.21428/594757db.166dda67" className="item-folio__project-link" title="Project link">
+                    <i className="im im-link" />
+                    </a>
+                </div> {/* end item-folio */}
+                </div> {/* end masonry__brick */}
+                <div className="masonry__brick">
+                <div className="item-folio">
+                    <div className="item-folio__thumb">
+                    <a href="http://hdl.handle.net/2429/81606" className="thumb-link" data-size="1050x700">
+                        <img src="images/portfolio/phm_classification_icon.jpg" srcSet="images/portfolio/phm_classification_icon.jpg 1x" alt="" />
+                        <span className="shadow-overlay" />
+                    </a>
+                    </div>
+                    <div className="item-folio__text">
+                    <h3 className="item-folio__title">
+                        Classification of Personal Health Mention Tweets with Genetic Algorithm Tuning
+                    </h3>
+                    <p className="item-folio__cat">
+                        Evolutionary Computing/Machine Learning
+                    </p>
+                    </div>
+                    <a href="https://github.com/emedema/phm_evolutionary_optimization" className="item-folio__project-link" title="Project link">
+                    <i className="im im-link" />
+                    </a>
+                </div> {/* end item-folio */}
+                </div> {/* end masonry__brick */}
+                <div className="masonry__brick">
+                <div className="item-folio">
+                    <div className="item-folio__thumb">
+                    <a href="http://hdl.handle.net/2429/81606" className="thumb-link" data-size="1050x700">
+                        <img src="images/portfolio/humpback_icon.jpg" srcSet="images/portfolio/humpback_icon.jpg 1x" alt="" />
+                        <span className="shadow-overlay" />
+                    </a>
+                    </div>
+                    <div className="item-folio__text">
+                    <h3 className="item-folio__title">
+                        Humpback Whale Classification
+                    </h3>
+                    <p className="item-folio__cat">
+                        Machine Learning/Deep Learning
+                    </p>
+                    </div>
+                    <a href="https://github.com/emedema/id_humpback_whales" className="item-folio__project-link" title="Project link">
+                    <i className="im im-link" />
+                    </a>
+                </div> {/* end item-folio */}
+                </div> {/* end masonry__brick */}
+                <div className="masonry__brick">
+                <div className="item-folio">
+                    <div className="item-folio__thumb">
+                    <a href="http://hdl.handle.net/2429/81606" className="thumb-link" data-size="1050x700">
                         <img src="images/portfolio/honours.jpg" srcSet="images/portfolio/honours.jpg 1x" alt="" />
                         <span className="shadow-overlay" />
                     </a>
