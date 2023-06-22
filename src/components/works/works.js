@@ -18,7 +18,7 @@ export default class Header  extends Component {
                 <div className="masonry__brick">
                 <div className="item-folio">
                     <div className="item-folio__thumb">
-                    <a href="http://hdl.handle.net/2429/81606" className="thumb-link" data-size="1050x700">
+                    <a href="https://doi.org/10.21428/594757db.166dda67" className="thumb-link" data-size="1050x700">
                         <img src="images/portfolio/comp_icon.jpg" srcSet="images/portfolio/comp_icon.jpg 1x" alt="" />
                         <span className="shadow-overlay" />
                     </a>
@@ -39,7 +39,7 @@ export default class Header  extends Component {
                 <div className="masonry__brick">
                 <div className="item-folio">
                     <div className="item-folio__thumb">
-                    <a href="http://hdl.handle.net/2429/81606" className="thumb-link" data-size="1050x700">
+                    <a href="https://github.com/emedema/phm_evolutionary_optimization" className="thumb-link" data-size="1050x700">
                         <img src="images/portfolio/phm_classification_icon.jpg" srcSet="images/portfolio/phm_classification_icon.jpg 1x" alt="" />
                         <span className="shadow-overlay" />
                     </a>
@@ -60,7 +60,7 @@ export default class Header  extends Component {
                 <div className="masonry__brick">
                 <div className="item-folio">
                     <div className="item-folio__thumb">
-                    <a href="http://hdl.handle.net/2429/81606" className="thumb-link" data-size="1050x700">
+                    <a href="https://github.com/emedema/id_humpback_whales" className="thumb-link" data-size="1050x700">
                         <img src="images/portfolio/humpback_icon.jpg" srcSet="images/portfolio/humpback_icon.jpg 1x" alt="" />
                         <span className="shadow-overlay" />
                     </a>
