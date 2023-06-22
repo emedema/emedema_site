@@ -76,6 +76,35 @@ export default class Header  extends Component {
                 <div className="timeline__block">
                 <div className="timeline__bullet" />
                 <div className="timeline__header">
+                <p className="timeline__timeframe">January 2023 - Present</p>
+                    <h3>Queen's University</h3>
+                    <h5>Research Assistant</h5>
+                </div>
+                <div className="timeline__desc">
+                    <p>
+                        I am currently working on three additional research projects to my thesis. One of which is focusing on tracking injustice, specifically in terms of police brutality incidences in Canada. To do so, I am teaching other research assistants Web Scraping and Data Collection techinques. 
+                    In another project, I am working on assessing the quality of feedback given to surgical residents and evaluating how the quality of feedback affects their development. 
+                    Lastly, I am working on a few social epistemology projects looking at modelling various scenarios that affect the spread of beliefs. I am also aiding in the research on the addictive qualities of social media and considering the agency of users based on these addictive qualities.
+                    </p>
+                </div>
+                </div> {/* end timeline__block */}
+                <div className="timeline__block">
+                <div className="timeline__bullet" />
+                <div className="timeline__header">
+                <p className="timeline__timeframe">January 2023 - April 2022</p>
+                    <h3>Queen's University</h3>
+                    <h5>Teaching Assistant</h5>
+                </div>
+                <div className="timeline__desc">
+                    <p>
+                        I worked as the Head Teaching Assistant for Algorithms 1 which included organizing and scheduling marking and office hours for all TAs, providing additional instruction and support to students in the Computer Science faculty. As well as marking and giving feedback to students on assignments and tests, which involves knowledge on the language, syntax,
+                        and occasionally proofs.
+                    </p>
+                </div>
+                </div> {/* end timeline__block */}
+                <div className="timeline__block">
+                <div className="timeline__bullet" />
+                <div className="timeline__header">
                 <p className="timeline__timeframe">September 2019 - April 2022</p>
                     <h3>University of British Columbia</h3>
                     <h5>Research & Teaching Assistant</h5>
@@ -84,7 +113,7 @@ export default class Header  extends Component {
                     <p>
                         My research entailed developing a mobile application to integrate the Internet of Things and better data visualization, visioning and analytics algorithms into Patient Health Platforms to improve patient experience.
                         Teaching included providing additional instruction and support to students in the Computer Science faculty. As well as marking and giving feedback to students on assignments and tests, which involves knowledge on the language, syntax,
-                        and occasionally proofs.
+                        and occasionally proofs. I also was the Head TA for a semester which involved organizing and scheduling marking and functioning as a mediator between students, TAs, and the Professor.
                     </p>
                 </div>
                 </div> {/* end timeline__block */}
