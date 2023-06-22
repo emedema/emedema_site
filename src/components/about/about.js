@@ -117,21 +117,9 @@ export default class Header  extends Component {
                     </p>
                 </div>
                 </div> {/* end timeline__block */}
-                    
-                <div className="timeline__block">
-                <div className="timeline__bullet" />
-                <div className="timeline__header">
-                    <p className="timeline__timeframe">May 2020 - August 2020</p>
-                    <h3>Saturn Animation Studios</h3>
-                    <h5>Software Developer</h5>
-                </div>
-                <div className="timeline__desc">	
-                    <p>Developing a web application, Kukarella, that provides an online Voice-to-Text, Text-to-Voice platform. Primarily working in React.js, Node.js, Firebase, and AWS.
-                    Primarily develop new features, fix various bugs, and perform testing.</p>
-                </div>
-                </div> {/* end timeline__block */}
             </div> {/* end timeline */}
             </div> {/* end left */}
+                    
             <div className="col-six tab-full right">
             <div className="timeline">
                 <div className="timeline__block">
@@ -145,6 +133,18 @@ export default class Header  extends Component {
                     <p>Entailed software development, QA - both manual and automated testing with Selenium, user interface development for web application, system support, 
                         database update script development and implementation, change management, enhancement and defect specification, refinement, design and development, 
                         planning with Azure DevOps, build automation and security improvements with SonarQube.</p>
+                </div>
+                </div> {/* end timeline__block */}
+                <div className="timeline__block">
+                <div className="timeline__bullet" />
+                <div className="timeline__header">
+                    <p className="timeline__timeframe">May 2020 - August 2020</p>
+                    <h3>Saturn Animation Studios</h3>
+                    <h5>Software Developer</h5>
+                </div>
+                <div className="timeline__desc">	
+                    <p>Developing a web application, Kukarella, that provides an online Voice-to-Text, Text-to-Voice platform. Primarily working in React.js, Node.js, Firebase, and AWS.
+                    Primarily develop new features, fix various bugs, and perform testing.</p>
                 </div>
                 </div> {/* end timeline__block */}
                 <div className="timeline__block">
