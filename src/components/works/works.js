@@ -8,7 +8,7 @@ export default class Header  extends Component {
                 <h3>Portfolio</h3>
                 <h1>See My Latest Projects.</h1>
                 <p className="lead">All of this work has been produced throughout my
-            degree at the University of British Columbia. During my time at university I have undergone various English courses,
+            undergraduate degree at the University of British Columbia and my masters at Queen's University. During my time at university I have undergone various English courses,
             Data courses, and Computer Science courses. In those courses I have written a lot of reports and developed a lot of projects, of those I am quite proud
             of a few. You can find those here. I have also linked completed side projects.</p>
             </div>
