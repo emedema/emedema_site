@@ -1646,7 +1646,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 72px;
 }
 
-.header-nav{
+.header-nav-collapsed{
     display: inline-block;
     list-style: none;
     margin-right: 10px;
@@ -1670,6 +1670,27 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav li.current a {
+    font-family: "montserrat-extrabold", sans-serif;
+    color: #7dccab;
+}
+
+.header-nav-collapsed li {
+    display: inline-block;
+    padding-left: 0;
+    margin-right: 2rem;
+}
+
+.header-nav-collapsed li a {
+    display: block;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.header-nav-collapsed li a:hover{
+    color: #89608E;
+}
+
+.header-nav-collapsed li.current a {
     font-family: "montserrat-extrabold", sans-serif;
     color: #7dccab;
 }
