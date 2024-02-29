@@ -16,7 +16,7 @@ export default class Header  extends Component {
             </ul>
           </nav>
           <a className="header-menu-toggle" href="#0">
-              <ul className="header-nav-collapsed">
+              <ul className="header-nav">
               <li className="current"><a className="smoothscroll" href="/#home" title="home">Home</a></li>
               <li><a className="smoothscroll" href="/#about" title="about">About</a></li>
               <li><a className="smoothscroll" href="/#works" title="works">Works</a></li>
