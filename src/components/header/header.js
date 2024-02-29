@@ -12,7 +12,7 @@ export default class Header  extends Component {
               <li><a className="smoothscroll" href="/#about" title="about">About</a></li>
               <li><a className="smoothscroll" href="/#works" title="works">Works</a></li>
               <li><a className="smoothscroll" href="/#contact" title="contact">Contact</a></li>
-              <li><a className="smoothscroll" href="/dinner" title="dinner">Dinner Selection</a></li>
+              <!-- <li><a className="smoothscroll" href="/dinner" title="dinner">Dinner Selection</a></li> -->
             </ul>
           </nav>
           <a className="header-menu-toggle" href="#0"><span>Menu</span></a>
