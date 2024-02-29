@@ -1646,6 +1646,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 72px;
 }
 
+.header-nav{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+    height: 72px;
+}
+
 .header-nav li {
     display: inline-block;
     padding-left: 0;
