@@ -61,7 +61,7 @@ export default class Header  extends Component {
         </div> {/* end about-content */}
         <div className="row about-content about-content--buttons">
             <div className="col-six tab-full left">
-            <a href="images/resume.pdf" className="btn btn--primary full-width">Download My CV</a>
+            <a href="images/EMedema-CV-2024.pdf" className="btn btn--primary full-width">Download My CV</a>
             </div>
             <div className="col-six tab-full right">
             <a href="#contact" className="btn full-width">Hire Me Now</a>
