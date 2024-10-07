@@ -13,7 +13,7 @@ export default class Header  extends Component {
         <div className="row about-content">
             <div className="col-six tab-full left">
             <h3>Hi!</h3>
-            <p>I'm Emily, an Kingston-based computer science student with experience in software and web development, research, teaching, and help desk/customer support. 
+            <p>I'm Emily, an Okanagan-based computer science student with experience in software and web development, research, teaching, and help desk/customer support. 
                 I primarily work in Python, JavaScript (as well as frameworks such as React and Node), Java, and R. I have a lot of experience with machine learning, artificial intelligence, evolutionary computing, and data analytic models/visualisations.</p>
             <p>
                 When I am not working or studying, I can be found working on one of my numerous writing works in progress, camping, reading, or futilely trying to make my way through my ever-growing Netflix queue. 
