@@ -7,14 +7,14 @@ export default class Header  extends Component {
             <div className="col-full text-center">
             <h3>About</h3>
             <h1>More About Me</h1>
-            <p className="lead">I am a current MSc in Computer Science graduate student at Queen's University within the <a href = "https://sites.google.com/site/tinghushomepage/research">Machine Intelligence & Biocomputing (MIB)</a> and <a href = "https://etlab.cs.queensu.ca/" >Ethics & Technology</a> Labs.</p> I am specifically researching bio-medical machine learning with a focus in ethics.
+            <p className="lead">I have recently graduated with my MSc in Computer Science from at Queen's University within the <a href = "https://sites.google.com/site/tinghushomepage/research">Machine Intelligence & Biocomputing (MIB)</a> and <a href = "https://etlab.cs.queensu.ca/" >Ethics & Technology</a> Labs.</p> I specifically researched the possibility of evolving misinformation on Twitter through the use of Large Language Models and Evolutionary Algorithms.
             </div>
         </div>
         <div className="row about-content">
             <div className="col-six tab-full left">
             <h3>Hi!</h3>
             <p>I'm Emily, an Kingston-based computer science student with experience in software and web development, research, teaching, and help desk/customer support. 
-                I primarily work in Python, JavaScript (as well as frameworks such as React and Node), Java, and R. I have a lot of experience with machine learning and data analytic models/visualisations.</p>
+                I primarily work in Python, JavaScript (as well as frameworks such as React and Node), Java, and R. I have a lot of experience with machine learning, artificial intelligence, evolutionary computing, and data analytic models/visualisations.</p>
             <p>
                 When I am not working or studying, I can be found working on one of my numerous writing works in progress, camping, reading, or futilely trying to make my way through my ever-growing Netflix queue. 
                 I also enjoy travelling (when it is legal), hiking, volleyball, and soccer.
@@ -61,7 +61,7 @@ export default class Header  extends Component {
         </div> {/* end about-content */}
         <div className="row about-content about-content--buttons">
             <div className="col-six tab-full left">
-            <a href="images/EMedema-CV-2024.pdf" className="btn btn--primary full-width">Download My CV</a>
+            <a href="images/emedema_cv_2024.pdf" className="btn btn--primary full-width">Download My CV</a>
             </div>
             <div className="col-six tab-full right">
             <a href="#contact" className="btn full-width">Hire Me Now</a>
