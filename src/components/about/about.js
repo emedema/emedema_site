@@ -7,17 +7,17 @@ export default class Header  extends Component {
             <div className="col-full text-center">
             <h3>About</h3>
             <h1>More About Me</h1>
-            <p className="lead">I have recently graduated with my MSc in Computer Science from at Queen's University within the <a href = "https://sites.google.com/site/tinghushomepage/research">Machine Intelligence & Biocomputing (MIB)</a> and <a href = "https://etlab.cs.queensu.ca/" >Ethics & Technology</a> Labs.</p> I specifically researched the possibility of evolving misinformation on Twitter through the use of Large Language Models and Evolutionary Algorithms.
+            <p className="lead">I am a Technical Analyst on the Drilling and Blasting Systems team at <a href = "https://www.glencore.ca/en/evr/">Elk Valley Resources </a>. I have graduated with my MSc in Computer Science from at Queen's University within the <a href = "https://sites.google.com/site/tinghushomepage/research">Machine Intelligence & Biocomputing (MIB)</a> and <a href = "https://etlab.cs.queensu.ca/" >Ethics & Technology</a> Labs.</p> I specifically researched the possibility of evolving misinformation on Twitter through the use of Large Language Models and Evolutionary Algorithms.
             </div>
         </div>
         <div className="row about-content">
             <div className="col-six tab-full left">
             <h3>Hi!</h3>
-            <p>I'm Emily, an Okanagan-based developer and analyst with experience in software, machine learning, and web development, research, teaching, and help desk/customer support. 
-                I primarily work in Python, JavaScript (as well as frameworks such as React and Node), Java, and R. I have a lot of experience with machine learning, artificial intelligence, evolutionary computing, and data analytic models/visualisations.</p>
+            <p>I'm Emily, an Vancouver-based developer and analyst with experience in software, machine learning, and web development, research, teaching, and help desk/customer support. 
+                I primarily work in .NET, C#, Python, JavaScript (as well as frameworks such as React and Node), Java, and R. I have a lot of experience with machine learning, artificial intelligence, evolutionary computing, and data analytic models/visualisations.</p>
             <p>
                 When I am not working or studying, I can be found working on one of my numerous writing works in progress, camping, reading, or futilely trying to make my way through my ever-growing Netflix queue. 
-                I also enjoy travelling (when it is legal), hiking, volleyball, and soccer.
+                I also enjoy travelling, hiking, volleyball, and baking for whoever I can force the goods onto.
             </p>
             <p>
                 Fun fact: I have a lot of random trivia stored in my head. 
@@ -76,13 +76,26 @@ export default class Header  extends Component {
                 <div className="timeline__block">
                 <div className="timeline__bullet" />
                 <div className="timeline__header">
+                <p className="timeline__timeframe">November 2024 - Present</p>
+                    <h3>Elk Valley Resources</h3>
+                    <h5>Technical Analyst</h5>
+                </div>
+                <div className="timeline__desc">
+                    <p>I support the Drilling and Blasting Systems (DABS) software as a Full Stack Developer by developing the application, deploying releases, managing incidents, and bug handling. I also configure the application servers and perform business analysis.
+                    I provide leadership within my team and perform QA on DABS. I am in charge of migrating the DABS system to .NET Core and adding functional capabilities in support of business process changes. 
+                    </p>
+                </div>
+                </div> {/* end timeline__block */}
+                <div className="timeline__block">
+                <div className="timeline__bullet" />
+                <div className="timeline__header">
                 <p className="timeline__timeframe">January 2023 - Present</p>
                     <h3>Queen's University</h3>
                     <h5>Research Assistant</h5>
                 </div>
                 <div className="timeline__desc">
                     <p>
-                        I am currently working on three additional research projects to my thesis. One of which is focusing on tracking injustice, specifically in terms of police brutality incidences in Canada. To do so, I am teaching other research assistants Web Scraping and Data Collection techinques. 
+                        I worked on three additional research projects to my thesis. One of which is focusing on tracking injustice, specifically in terms of police brutality incidences in Canada. To do so, I am teaching other research assistants Web Scraping and Data Collection techinques. 
                     In another project, I am working on assessing the quality of feedback given to surgical residents and evaluating how the quality of feedback affects their development. 
                     Lastly, I am working on a few social epistemology projects looking at modelling various scenarios that affect the spread of beliefs. I am also aiding in the research on the addictive qualities of social media and considering the agency of users based on these addictive qualities.
                     </p>
@@ -102,6 +115,11 @@ export default class Header  extends Component {
                     </p>
                 </div>
                 </div> {/* end timeline__block */}
+            </div> {/* end timeline */}
+            </div> {/* end left */}
+                    
+            <div className="col-six tab-full right">
+            <div className="timeline">
                 <div className="timeline__block">
                 <div className="timeline__bullet" />
                 <div className="timeline__header">
@@ -117,11 +135,6 @@ export default class Header  extends Component {
                     </p>
                 </div>
                 </div> {/* end timeline__block */}
-            </div> {/* end timeline */}
-            </div> {/* end left */}
-                    
-            <div className="col-six tab-full right">
-            <div className="timeline">
                 <div className="timeline__block">
                 <div className="timeline__bullet" />
                 <div className="timeline__header">
