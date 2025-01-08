@@ -18,6 +18,27 @@ export default class Header  extends Component {
                 <div className="masonry__brick">
                 <div className="item-folio">
                     <div className="item-folio__thumb">
+                    <a href="https://hdl.handle.net/1974/33440" className="thumb-link" data-size="1050x700">
+                        <img src="images/thesis_pic.png" srcSet="images/thesis_pic.png 1x" alt="" />
+                        <span className="shadow-overlay" />
+                    </a>
+                    </div>
+                    <div className="item-folio__text">
+                    <h3 className="item-folio__title">
+                        Why would the Internet lie to me?: Analyzing the Performance of Misinformation on Twitter utilizing Large Language Models, Machine Learning, and Evolutionary Computing
+                    </h3>
+                    <p className="item-folio__cat">
+                        Evolutionary Computing/LLMs/Machine Learning
+                    </p>
+                    </div>
+                    <a href="https://hdl.handle.net/1974/33440" className="item-folio__project-link" title="Project link">
+                    <i className="im im-link" />
+                    </a>
+                </div> {/* end item-folio */}
+                </div> {/* end masonry__brick */}
+                <div className="masonry__brick">
+                <div className="item-folio">
+                    <div className="item-folio__thumb">
                     <a href="https://doi.org/10.21428/594757db.166dda67" className="thumb-link" data-size="1050x700">
                         <img src="images/portfolio/comp_icon.jpg" srcSet="images/portfolio/comp_icon.jpg 1x" alt="" />
                         <span className="shadow-overlay" />
